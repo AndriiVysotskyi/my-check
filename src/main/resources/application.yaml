@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/my_check'
+    username: 'app-user'
+    password: 'password'
+    driver-class-name: com.mysql.cj.jdbc.Driver
